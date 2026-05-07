@@ -1,0 +1,60 @@
+frontend/
+│
+├── src/
+│   ├── api/
+│   │   ├── axios.js
+│   │   ├── matchApi.js
+│   │   ├── playerApi.js
+│   │   ├── scoringApi.js
+│   │   └── paymentApi.js
+│
+│   ├── pages/
+│   │   ├── Dashboard.jsx
+│   │   ├── CreateMatch.jsx
+│   │   ├── LiveMatch.jsx
+│   │   ├── MatchDetail.jsx
+│   │   ├── Players.jsx
+│   │   └── PlayerDetail.jsx
+│
+│   ├── components/
+│   │   ├── scoreboard/
+│   │   │   ├── ScoreBoard.jsx
+│   │   │   ├── OverDisplay.jsx
+│   │   │   └── CurrentStats.jsx
+│   │   │
+│   │   ├── scoring/
+│   │   │   ├── ScoreButtons.jsx
+│   │   │   ├── BowlerSelector.jsx
+│   │   │   └── UndoButton.jsx
+│   │   │
+│   │   ├── match/
+│   │   │   ├── MatchCard.jsx
+│   │   │   └── MatchForm.jsx
+│   │   │
+│   │   ├── player/
+│   │   │   ├── PlayerCard.jsx
+│   │   │   └── PlayerStats.jsx
+│   │   │
+│   │   ├── payment/
+│   │   │   ├── PaymentForm.jsx
+│   │   │   └── PaymentList.jsx
+│   │   │
+│   │   └── common/
+│   │       ├── Button.jsx
+│   │       ├── Loader.jsx
+│   │       └── Modal.jsx
+│
+│   ├── hooks/
+│   │   ├── useMatch.js
+│   │   └── usePolling.js
+│
+│   ├── utils/
+│   │   └── formatOvers.js
+│
+│   ├── context/   (optional)
+│   │   └── MatchContext.jsx
+│
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
