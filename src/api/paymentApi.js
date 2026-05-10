@@ -7,3 +7,6 @@ export const addPayment = (matchId, data) =>
 // get payments
 export const getPayments = (matchId) =>
   API.get(`/${matchId}/payment`);
+
+export const getPaymentsByDate = (date) =>
+  API.get(`/payments/date/${date}`);
